@@ -62,6 +62,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
 
     }
+
     /*public boolean checkUser(String username, String password)
     {
         String[] columns = null;

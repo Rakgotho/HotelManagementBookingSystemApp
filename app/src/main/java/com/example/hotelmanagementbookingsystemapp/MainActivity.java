@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 if(password.equals(confirm)) {
                     long res = myDb.addUser(username, password);
 
-                    if(res>1)
+                    if(res > 0)
                     {
                         Toast.makeText(MainActivity.this, "Registered successful", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(MainActivity.this, Login.class);
